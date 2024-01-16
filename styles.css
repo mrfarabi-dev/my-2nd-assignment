@@ -15,9 +15,6 @@
     display: none;
 }
 
-.header-item{
-    padding: 50px 240px;
-}
 
 .nav-container p{
     color: #131318;
@@ -116,6 +113,413 @@ nav li a{
 }
 /* banner styles end */
 
+/* section-1 style start */
+.section-1{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.section-1-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-1-discription{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.section-1-discription li{
+    padding-top: 30px;
+}
+
+.section-1-discription-2{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.section-1-btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* section-1 style end */
+
+/* section-2 styles start */
+.section-2{
+    width: 100%;
+    margin-top: 100px;
+}
+.section-2-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-2-discription{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+}
+.section-2-img-container{
+    position: relative;
+}
+.section-2-img-1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    gap: 24px;
+}
+.section-2-img-2{
+    display: flex;
+    margin-top: 20px;
+    gap: 24px;
+    margin-left: 50px;
+}
+.section-2-img-3{
+    display: flex;
+    margin-top: 20px;
+    gap: 24px;
+    margin-left: 50px;
+}
+.maldives{
+    padding-left: 250px;
+    position: absolute;
+    padding-top: 150px;
+    font-weight: 800;
+    color: tomato;
+}
+.indonesia{
+    position: absolute;
+    padding-left: 850px;
+    padding-top: 150px;
+    font-weight: 800;
+    color: tomato;
+}
+.srilanka{
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 150px;
+    font-weight: 800;
+    color: tomato;
+}
+.north{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 150px;
+    font-weight: 800;
+    color: tomato;
+}
+.kashmir{
+    position: absolute;
+    font-weight: 800;
+    color: tomato;
+    padding-left: 1000px;
+    margin-top: 150px;
+}
+.bangladesh{
+    position: absolute;
+    font-weight: 800;
+    color: tomato;
+    padding-left: 160px;
+    padding-top: 150px;
+}
+.bandorban{
+    position: absolute;
+    font-weight: 800;
+    color: tomato;
+    padding-left: 800px;
+    padding-top: 150px;
+}
+/* section-2 styles end */
+
+/* section-3 styles start */
+.section-3{
+    width: 100%;
+    margin-top: 100px;
+}
+.section-3-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20px;
+}
+.section-3-discription{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+.section-3-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.section-3-card-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;color: #131318;
+    margin-left: 20px;
+}
+.section-3-card-discription{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+}
+.section-3-card{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-bottom: 20px;
+}
+.img-1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.section-3-card-backgurond{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.section-3-card-title-1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;color: #131318;
+    margin-left: 20px;
+}
+.section-3-card-discription-1{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+}
+/* section-3 styles end */
+
+/* section-4 styles start */
+
+.section-4{
+    margin-top: 100px;
+    width: 100%;
+}
+.section-4-content{
+    display: flex;
+    gap: 20px;
+}
+.section-4-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.section-4-discription{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.section-4-ul-item{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.section-4-btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+/* section-4 styles end */
+
+/*section-5 styles start  */
+.section-5{
+    margin-top: 100px;
+    width: 100%;
+}
+.section-5-container{
+    display: flex;
+    margin-left: 50px;
+    gap: 40px;
+}
+.section-5-content{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.section-5-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.section-5-discription{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.section-5-input-1{
+    width: 390px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.section-5-input-2{
+    width: 390px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.section-5-btn{
+    width: 390px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/* section-5 styles end */
+
+/* footer section start */
+.footer-section{
+    width: 100%;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 400px;
+    position: relative;
+    border-radius: 16px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.footer-discription{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 110px;
+}
+.footer-img{
+   padding-left: 500px;
+   height: 40px;
+   margin-top: 50px;
+}
+.footer-hr{
+    margin-top: 40px;
+}
+.fotter-ending{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+/* footer section end */
 
 
 
@@ -146,15 +550,16 @@ nav li a{
 
 
 @media screen and (max-width: 600px) {
-   
+/* navbar respons start */
     .header-item{
         padding: 0 0;
-        border: 2px solid tomato;
         margin-bottom: 0;
         margin: 0;
-        
-        
-       
+    }
+    main{
+        padding: 0 0;
+        margin-bottom: 0 0;
+        margin: 0;
     }
     
     .fa-bars{
@@ -172,36 +577,180 @@ nav li a{
 
     
     .nav-section{
-        width: 70%;
+        width: 80%;
         align-items: center;
+        margin-left: 20px;
     }
 
     nav > ul{
        flex-direction: column;
        margin-top: 20px;
     }
+    /* navbar respons end */
+
+    /* banner respons start */
     .banner-content{
        width: 80%;
        height: 600;
-       border: 2px solid red;
+       margin-left: 35px;
+       margin-top: 5px;
 
     }
-    .banner-discription{
-        width: 50%;
+    .banner-title{
+       padding-top: 0;
     }
     .banner-btn{
-        width: 150px;
-        height: 400;
+        width: 250px;
+        height: 345px;
         flex-direction: column;
-        margin-left: 10px;
-        margin-top: -50px;
-        border: 2px solid blue;
+        margin-left: 25px;
+        margin-top: 0;
     }
     .banner-btn button{
-        margin-left: -50px;
         border: 2px solid yellow;
+        margin-top: 20px;
+        margin-left: -50px;
+        gap: -10px;
+        height: 40px;
+        width: 245px;
     }
-   
+   /* banner respons end */
+   /* section-1 respons start */
+   .section-1{
+    flex-direction: column;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+   }
+   .section-1-img img{
+    width: 90%;
+    margin-left: 50px;
+    padding-top: 20px;
+   }
+   /* section-1 respons end */
+   /* section-2 respons start */
+   .section-2{
+    width: 80%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   }
+   .section-2-discription{
+    width: 80%;
+    margin-left: 50px;
+   }
+   .section-2-img-1{
+    flex-direction: column;
+   }
+   .section-2-img-2{
+    flex-direction: column;
+   }
+   .section-2-img-3{
+    flex-direction: column;
+   }
+   .maldives{
+    margin-top: -90px;
+    margin-left: -150px;
+   }
+   .indonesia{
+    margin-left: -760px;
+    margin-top: 70px;
+   }
+   .srilanka{
+    margin-left: -50px;
+    margin-top: -60px;
+   }
+   .north{
+    margin-left: -520px;
+    margin-top: 150px;
+   }
+   .kashmir{
+    margin-left: -900px;
+    margin-top: 525px;
+   }
+   .bangladesh{
+    margin-left: -90px;
+    margin-top: -70px;
+   }
+   .bandorban{
+    margin-left: -710px;
+    margin-top: 90px;
+   }
+   /* section-2 respons end */
+   /* section-3 respons start */
+   .section-3{
+    flex-direction: column;
+    width: 80%;
+   }
+   .section-3-container{
+    flex-direction: column;
+    width: 80%;
+   }
+   .section-3-card{
+    width: 220px;
+    height: 400px;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+   }
+   .section-3-card-backgurond{
+    width: 220px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    padding: 0;
+   }
+   .section-3-extra{
+    width: 220px;
+    margin-left: 50px;
+   }
+
+   /* section-3 respons end */
+
+   /* section-4 respons start */
+   .section-4-content{
+    flex-direction: column;
+    width: 250px;
+   }
+   .section-4-img img{
+    width: 200px;
+    margin-left: 50px;
+   }
+   .section-4-btn{
+    margin-left: -20px;
+   }
+   /* section-4 respons end */
+
+   /* section-5 respons start */
+   .section-5-container{
+    flex-direction: column;
+   }
+   .section-5-content{
+    width: 250px;
+    height: 500px;
+   }
+   .section-5-input-1{
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+   }
+   .section-5-input-2{
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+   }
+   .section-5-btn{
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+   }
+   .section-5-img img{
+    width: 240px;
+   }
+   /* section-5 respons end */
+   .footer-section{
+    width: 200px;
+   }
 }
     
 
